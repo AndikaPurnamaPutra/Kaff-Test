@@ -146,6 +146,8 @@ img {
   font-weight: 400;
   color: #fbeee5;
   padding: 8px;
+  transition: all 300ms ease;
+  cursor: pointer;
 }
 .navbar .navbar-inner .navbar-collapse .navbar-menu .nav-link:hover {
   color: #ffffff;
@@ -168,6 +170,8 @@ img {
   color: #14463a;
   font-family: "agrandirgrand_heavy";
   font-weight: 800;
+  cursor: pointer;
+  transition: all 300ms ease;
 }
 .navbar .navbar-inner .btn-primary:hover {
   background-color: #ffffff;
@@ -745,12 +749,12 @@ img {
     z-index: 2;
   }
   .hero-content .content .decor-top {
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     object-fit: contain;
     position: absolute;
     top: 12%;
-    left: 50%;
+    left: 23%;
     transform: translate(-50%);
   }
   .hero-content .content .decor-bottom {
@@ -1100,6 +1104,7 @@ img {
 }
 .store .content .wrap {
   position: relative;
+  cursor: pointer;
 }
 .store .content .wrap .img-hover {
   position: absolute;
@@ -1109,7 +1114,7 @@ img {
   top: 50%;
   right: 5%;
   transform: translate(-50%, -50%) scale(0);
-  z-index: 8;
+  z-index: 1;
   transition: all 200ms ease;
 }
 .store .content .wrap:hover .img-hover {

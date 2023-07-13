@@ -185,6 +185,8 @@ img {
                     font-weight: 400;
                     color: $Cream-color;
                     padding: 8px;
+                    transition: all 300ms ease;
+                    cursor: pointer;
 
                     &:hover {
                         color: $white-color;
@@ -214,6 +216,8 @@ img {
             color: $primary-color;
             font-family: $font-agrandirGrand;
             font-weight: 800;
+            cursor: pointer;
+            transition: all 300ms ease;
 
             &:hover {
                 background-color: $white-color;
@@ -891,12 +895,12 @@ img {
             }
 
             .decor-top {
-                width: 60px;
-                height: 60px;
+                width: 30px;
+                height: 30px;
                 object-fit: contain;
                 position: absolute;
                 top: 12%;
-                left: 50%;
+                left: 23%;
                 transform: translate(-50%);
             }
             .decor-bottom {
@@ -1301,6 +1305,7 @@ img {
         gap: 40px;
         .wrap {
             position: relative;
+            cursor: pointer;
 
             .img-hover {
                 position: absolute;
@@ -1310,7 +1315,7 @@ img {
                 top: 50%;
                 right: 5%;
                 transform: translate(-50%, -50%) scale(0);
-                z-index: 8;
+                z-index: 1;
                 transition: all 200ms ease;
             }
 
