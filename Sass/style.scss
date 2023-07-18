@@ -1303,7 +1303,7 @@ img {
 
 @media (max-width: 768px) {
     .equipment {
-        padding-block: 150px;
+        padding-block: 100px;
         .content {
             .heading-text,
             .img-quipment {
@@ -1716,7 +1716,7 @@ img {
         .heading-content {
             flex-direction: column;
             align-items: flex-start;
-            margin-bottom: 100px;
+            margin-bottom: 60px;
             gap: 20px;
             .heading-text {
                 color: $white-color;
